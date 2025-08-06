@@ -1,0 +1,85 @@
+/* footer {
+  background-color: orange;
+  height: 200px;
+  text-align: center;
+}
+
+* {
+  background-color: chartreuse;
+}
+
+#about {
+  background-color: green;
+}
+
+#projects {
+  background-color: burlywood;
+}
+
+.gen-section {
+  background-color: azure;
+}
+
+main {
+  background-color: red;
+}
+
+li {
+  font-size: 20px;
+} */
+
+/* section h2 {
+  background-color: purple;
+} */
+
+section > h2 {
+  background-color: purple;
+}
+
+h2 + p {
+  background-color: green;
+}
+
+h2 ~ p {
+  background-color: brown;
+}
+
+[test] {
+  background-color: pink;
+}
+
+[test="data1"] {
+  background-color: crimson;
+}
+
+h3[test] {
+  font-size: 50px;
+}
+
+p::first-letter {
+  font-size: 60px;
+}
+
+p:hover {
+  color: #ff0000;
+}
+
+main {
+  background-color: #0000ff !important;
+  opacity: 0.3;
+  visibility: hidden;
+  display: none;
+}
+
+h3 {
+  width: 200px;
+  height: 500px;
+  border-top: 10px black dashed;
+  border-radius: 50px;
+
+  box-shadow: 11px 9px 13px 5px #89898963;
+}
+
+h3:hover {
+  cursor: crosshair;
+}
